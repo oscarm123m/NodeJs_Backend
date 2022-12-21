@@ -1,0 +1,24 @@
+const miBase = "react_bd"; 
+use(miBase);
+
+
+
+db.Ciudad.insertOne({
+    nombreCiudad:"Tunja",
+})
+
+db.Ciudad.insertOne({
+    nombreCiudad:"Bogota",
+})
+
+db.Ciudad.find()
+
+db.Empresa.insertOne({
+    nombreEmpresa:"Ebsa",
+})
+
+db.Empresa.insertOne({
+    nombreEmpresa:"GyJ",
+})
+
+db.Empresa.find()

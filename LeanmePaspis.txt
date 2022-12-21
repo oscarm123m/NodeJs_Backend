@@ -1,0 +1,26 @@
+---------------------- Instalacion de Paquetes
+
+npm i cors
+npm i express
+npm i jsonwebtoken
+npm i morgan
+npm i bcryptjs
+npm i mongoose
+
+--------------------- Instalacion entorno desarrollador
+
+npm i nodemon --save-dev
+npm i dotenv --save-dev
+npm i @types/cors --save-dev
+npm i @types/express --save-dev
+npm i @types/morgan --save-dev
+npm i @types/jsonwebtoken --save-dev
+
+----------------------- Archivo tsc
+
+tsc --init 
+
+---------------------- Scripts ejecucion y construccion de la aplicacion
+
+"dev": "nodemon build/index.js",
+"build": "tsc -w"
